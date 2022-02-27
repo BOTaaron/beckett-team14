@@ -7,6 +7,7 @@
 /* ************************** */
 
 .container {
+    background-color: brown;
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -66,6 +67,7 @@ hr {
     width: 500px;
     height: 300px;
     padding: 10px;
+    border-radius: 100px;
 }
 
 .pxlogo {
@@ -202,7 +204,7 @@ hr {
 
 button {
     padding: 9px 25px;
-    background-color: darkblue;
+    background-color: #962c3a;
     border-style: solid;
     border-radius: 12px;
     cursor: pointer;
@@ -259,7 +261,7 @@ label {
 }
 
 button:hover {
-    background-color: darkcyan;
+    background-color: slateblue;
 }
 
 
@@ -308,8 +310,11 @@ button:hover {
         height: 100%;
     }
     .main .c img {
-        width: 100%;
-        height: 100%;
+        height: 350px;
+        width: 350px;
+        position: absolute;
+        top: 110px;
+        left: 2px;
     }
     .container {
         width: 100%;
