@@ -7,6 +7,7 @@
 /* ************************** */
 
 .container {
+    background-color: brown;
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -66,6 +67,7 @@ hr {
     width: 500px;
     height: 300px;
     padding: 10px;
+    border-radius: 100px;
 }
 
 .pxlogo {
@@ -96,18 +98,24 @@ hr {
 /* ************************** */
 
 .navbar {
-    background-image: url(images/navbar3.jpg);
     overflow: hidden;
     height: 167px;
     width: auto;
-    margin: 0 auto;
+    margin: auto;
 }
 
-.navbar img {
-    height: 100%;
+.bg-img {
+    background-image: url(images/navbar3.jpg);
+    /* center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* positioning the navbar*/
+    position: relative;
 }
 
 .navbar a {
+    /*navbar links */
     float: left;
     display: block;
     color: floralwhite;
@@ -117,6 +125,7 @@ hr {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 110px;
+    overflow: hidden;
 }
 
 .navbar ul {
@@ -202,7 +211,7 @@ hr {
 
 button {
     padding: 9px 25px;
-    background-color: darkblue;
+    background-color: #962c3a;
     border-style: solid;
     border-radius: 12px;
     cursor: pointer;
@@ -259,7 +268,7 @@ label {
 }
 
 button:hover {
-    background-color: darkcyan;
+    background-color: slateblue;
 }
 
 
@@ -308,8 +317,11 @@ button:hover {
         height: 100%;
     }
     .main .c img {
-        width: 100%;
-        height: 100%;
+        height: 350px;
+        width: 350px;
+        position: absolute;
+        top: 110px;
+        left: 2px;
     }
     .container {
         width: 100%;
