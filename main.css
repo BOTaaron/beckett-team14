@@ -7,7 +7,7 @@
 /* ************************** */
 
 .container {
-    background-color: brown;
+    background-color: slateblue;
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -18,10 +18,18 @@ body {
     font-family: sans-serif;
 }
 
+
+/*headings*/
+
 h1 {
     font-family: century gothic;
-    /*headings*/
     font-size: 24px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: century gothic;
+    font-size: 20px;
     color: whitesmoke;
 }
 
