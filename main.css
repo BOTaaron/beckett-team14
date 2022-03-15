@@ -132,7 +132,8 @@ hr {
 }
 
 .bg-img {
-    background-image: url(images/navbar3.jpg);
+    /*  navbar bg img */
+    background-image: url(images/navbarHD.jpg);
     /* center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
