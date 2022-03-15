@@ -17,6 +17,7 @@ body {
     font-family: sans-serif;
     margin: auto;
     padding: 0%;
+    height: 200px;
 }
 
 
@@ -70,9 +71,9 @@ h2 {
 
 /*       */
 
-.main .c img {
-    height: 700px;
-    width: 700px;
+.main #floatImg {
+    height: 600px;
+    width: 600px;
     position: absolute;
     top: 220px;
     left: 2px;
@@ -163,14 +164,14 @@ hr {
 }
 
 .navbar a:hover {
-    color: slateblue;
+    color: peachpuff;
 }
 
 .navbar .active {
     /** highlight the current page **/
     border-radius: 9px;
     height: 29px;
-    color: slateblue;
+    color: peachpuff;
 }
 
 .navbar input[type=text] {
@@ -192,8 +193,62 @@ hr {
 }
 
 .nav1 img {
-    border-radius: 100px;
-    color: lightslategray
+    border-radius: 400px;
+}
+
+
+/* ************************** */
+
+
+/* ************************** */
+
+
+/* ************************** */
+
+
+/** sidenavbar **/
+
+
+/* ************************** */
+
+.side-nav {
+    height: 75%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #962c3a;
+    opacity: 0.9;
+    overflow-x: hidden;
+    border-radius: 0px 10px 900px 0px;
+    padding-top: 60px;
+    transition: 1.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+    color: white;
+    display: block;
+}
+
+.side-nav a:hover {
+    color: peachpuff;
+}
+
+.side-nav .active {
+    color: peachpuff;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 
@@ -324,6 +379,11 @@ button:hover {
     .container {
         width: 100%;
     }
+    .svg {
+        position: absolute;
+        top: 93px;
+        left: 3px;
+    }
 }
 
 @media(max-width:700px) {
@@ -340,7 +400,7 @@ button:hover {
         width: 100%;
         height: 100%;
     }
-    .main .c img {
+    .main #floatImg {
         height: 350px;
         width: 350px;
         position: absolute;
@@ -350,6 +410,11 @@ button:hover {
     .container {
         width: 100%;
         box-sizing: border-box;
+    }
+    .svg {
+        position: absolute;
+        top: 93px;
+        left: 3px;
     }
 }
 

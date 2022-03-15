@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
     <!--character width              -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <!--page to fit screen at diff widths    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
-    <title>Contact Us</title>
     <!--  page title  -->
-    <link href="main.css" rel="Stylesheet" type="text/css" />
+    <title>About</title>
     <!-- stylesheet reference   -->
+    <link href="main.css" rel="Stylesheet" type="text/css" />
+    <!-- icon -->
+    <link rel="icon" href="images/Logop.jpg" type="image/x-icon">
 
 </head>
 
@@ -19,6 +21,17 @@
 
         <div class="bg-img">
             <nav class="navbar">
+                <!-- side navigation bar   -->
+                <a href="#" onclick="OSM()">
+                    <svg class="svg" width="30" height="30">
+                        <path id="sgv1" d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path id="sgv2" d= "M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path id="sgv3" d= "M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                        
+                    
+                    </svg>
+                </a>
+
                 <ul class="navbar-nav">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="order.html">ORDER</a></li>
@@ -26,10 +39,19 @@
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="about.html">JOIN</a></li>
                 </ul>
-
-
             </nav>
+        </div>
+        <div id="side-menu" class="side-nav">
 
+            <a href="#" class="btn-close" onclick="CSM()">&times;</a>
+            <!--  Side navigation bar links  -->
+            <ul>
+                <a href="index.html">HOME</a>
+                <a href="order.html">ORDER</a>
+                <a class="active" href="#">CONTACT</a>
+                <a href="about.html">ABOUT</a>
+                <a href="about.html">JOIN</a>
+            </ul>
         </div>
 
         <!-- form -->
@@ -39,8 +61,6 @@
             <div class="formContainer">
 
                 <h1>WE ARE HAPPY TO HEAR FROM YOU</h1>
-
-                <p>Let us know whats on your mind.</p>
                 <hr>
 
                 <div id="fname">
@@ -70,7 +90,7 @@
         </form>
 
 
-
+        <script src="main.js"></script>
         <hr/>
         <footer>
 
