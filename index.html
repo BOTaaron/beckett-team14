@@ -2,16 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
     <!--character width              -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <!--page to fit screen at diff widths    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
-    <title>Home</title>
     <!--  page title  -->
-    <link href="main.css" rel="Stylesheet" type="text/css" />
+    <title>About</title>
     <!-- stylesheet reference   -->
-
+    <link href="main.css" rel="Stylesheet" type="text/css" />
+    <!-- icon -->
+    <link rel="icon" href="images/Logop.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -19,28 +20,49 @@
 
         <div class="bg-img">
             <nav class="navbar">
-                <span class="nav1">
-                 <ul class="navbar-nav">
-                 <li><a class="active" href="#">HOME</a></li>
-                 <li><a href="order.html">ORDER</a></li>
-                 <li><a href="contact.html">CONTACT</a></li>
-                 <li><a href="about.html">ABOUT</a></li>
-                 <li><a href="about.html">JOIN</a></li>
-                 </ul>
-                </span>
+                <!-- side navigation bar   -->
+                <a href="#" onclick="OSM()">
+                    <svg class="svg" width="30" height="30">
+                        <path id="sgv1" d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path id="sgv2" d= "M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path id="sgv3" d= "M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                        
+                    
+                    </svg>
+                </a>
+
+                <ul class="navbar-nav">
+                    <li><a class="active" href="#">HOME</a></li>
+                    <li><a href="order.html">ORDER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.html">JOIN</a></li>
+                </ul>
             </nav>
+        </div>
+        <div id="side-menu" class="side-nav">
+
+            <a href="#" class="btn-close" onclick="CSM()">&times;</a>
+            <!--  Side navigation bar links  -->
+            <ul>
+                <a class="active" href="#">HOME</a>
+                <a href="order.html">ORDER</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="about.html">ABOUT</a>
+                <a href="about.html">JOIN</a>
+            </ul>
         </div>
         <div class="main">
             <!--main page content-->
             <span>
             <img src="images/coffee-shop.jpg" alt="coffee bar" />
            
-                <div class="c"><img src="images/citycentre.jpg" alt="location" /></div>
+                <div id="floatImg"><img src="images/citycentre.jpg" alt="location" /></div>
             </span>
 
         </div>
 
-
+        <script src="main.js"></script>
         <footer>
             <div class="foot">
 
