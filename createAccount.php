@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
     <head>
         <link type="text/css" rel="stylesheet" href="main.css"/>
@@ -8,9 +9,7 @@
     <h1>Insert a record</h1>
 
     <form method="post" action="insertRecord.php">
-
-        <input type="text" name="txtID" />
-        <br />
+        
         <input type="text" name="txtName" />
         <br />
         <input type="text" name="txtPass" />
@@ -24,6 +23,8 @@
     ?>
 
     </body>
+    <body style="background-color:#ff91a4;">
+</body>
 </html>
 
 
