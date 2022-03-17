@@ -1,7 +1,7 @@
 <?php
 
 //start the database. Hostname of localhost, username of pixelchills, no password, and use a database named 'contact-us'
-$con = mysqli_connect("localhost", "root", "", "contact-us");
+$con = mysqli_connect("localhost", "root", "", "contact_us");
 
     //checks for errors when starting the database, otherwise will continue with the code
     if (mysqli_connect_errno()) {
