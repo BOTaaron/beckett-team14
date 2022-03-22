@@ -8,7 +8,7 @@ $con = mysqli_connect("localhost", "root", "", "contact-us");
         echo "Failed to connect to MySQL: " .mysqli_connect_error();
         exit();
 
-    } elseif ((isset($_POST['submit']))) {
+    } elseif (isset($_POST['submit'])) {
         //isset method to check whether submit button is clicked, if so code runs (above)
         //takes data submitted into the 'contact us' form and saves it into constants (below)
         $Fname = $con->real_escape_string($_POST['fname']);
