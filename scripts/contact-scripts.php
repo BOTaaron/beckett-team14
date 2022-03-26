@@ -39,11 +39,6 @@ if (mysqli_connect_errno()) {
     // simply executes the query. Data is sent to the database and the page will soon redirect the user.
     $stmt->execute();
 
-    if (mysqli_query($conn, $sql)) {
-        echo "Record created";
-    } else {
-        echo "Error: " .$sql . "<br>" .mysqli_error($conn);
-    }
     // gives a message before redirecting the user back to the contact page.
     echo "Thank you for your feedback. You should hear back from us within 24 hours. You will now be redirected...";
     // simply refreshes the page once the form is submitted
@@ -52,11 +47,6 @@ if (mysqli_connect_errno()) {
 
 // closes the database connection. Optional, but good practice.
 mysqli_close($conn);
-
-
-
-
-
 
 ?>
 
