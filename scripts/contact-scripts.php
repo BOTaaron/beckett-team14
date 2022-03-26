@@ -46,7 +46,7 @@ if (mysqli_connect_errno()) {
     }
     // gives a message before redirecting the user back to the contact page.
     echo "Thank you for your feedback. You should hear back from us within 24 hours. You will now be redirected...";
-    // simply refreshes the page once the form is submitted 
+    // simply refreshes the page once the form is submitted
     header('Location: ../contact.php');
 }
 
