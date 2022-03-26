@@ -1,3 +1,7 @@
+<?php
+    include __DIR__.'\scripts\contact-scripts.php';
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -56,7 +60,7 @@
 
         <!-- form -->
 
-        <form id="contact" action="contact-scripts.php" method="POST">
+        <form id="contact" action="scripts/contact-scripts.php" method="POST">
             <!--contact us form-->
             <div class="formContainer">
 
