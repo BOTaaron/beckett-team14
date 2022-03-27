@@ -1,7 +1,3 @@
-<?php
-    include __DIR__.'\scripts\contact-scripts.php';
-?>
-
 <!doctype html>
 <html lang="en">
 
@@ -12,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>About</title>
+    <title>about</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
     <link rel="icon" href="images/Logop.jpg" type="image/x-icon">
+
 
 </head>
 
@@ -39,9 +36,9 @@
                 <ul class="navbar-nav">
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="order.php">ORDER</a></li>
-                    <li><a class="active" href="#">CONTACT</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                     <li><a href="about.php">ABOUT</a></li>
-                    <li><a href="signIn.php">JOIN</a></li>
+                    <li><a href="signIn.php">SIGN IN</a></li>
                 </ul>
             </nav>
         </div>
@@ -52,55 +49,52 @@
             <ul>
                 <a href="index.php">HOME</a>
                 <a href="order.php">ORDER</a>
-                <a class="active" href="#">CONTACT</a>
+                <a href="contact.php">CONTACT</a>
                 <a href="about.php">ABOUT</a>
-                <a href="signIn.php">JOIN</a>
+                <a href="signIn.php">SIGN IN</a>
             </ul>
         </div>
 
-        <!-- form -->
+        <div class="main">
+            <!--main page content-->
+            <!DOCTYPE html>
+            <html lang="en">
+            <html>
+                <head>
+                    <link type="text/css" rel="stylesheet" href="main.css"/>
+            </head>
+            <body>
+                <br />
+                <br />
+                <h1> - SIGN IN - </h1>
+                <p>Dont forget to log in to see our latest events and offers.</p>
 
-        <form id="contact" action="scripts/contact-scripts.php" method="POST">
-            <!--contact us form-->
-            <div class="formContainer">
+                    <form method="post" action="insertRecord.php">
 
-                <h1>Hot food? Cold Beers? Whatever your feedback, we would love to hear it.</h1> <!-- Ashley changed this line lol (suggests our food comes cold)-->
-                <hr>
+                        <input type="text" placeholder="Email*" name="txtEmail" />
+                        <br />
+                        <input type="text" placeholder="Password*" name="txtPass" />
+                        <br />
+                        <a href="passwordReset.php"><p><u> Forgotten your password?</u></p></a>
+                        <br />
+                        <button name = "subUser" type="submit" class="registerbtn">SIGN UP</button>
+                        <br />
+                        <br />
+                        <h2> Not a member? <a href="createAccount.html"><u>Register here</u></a></small></h2>
+                        <br />    
 
-                <div id="fname">
-                    <label for="contact"></label>
-                    <input type="text" placeholder="Full Name" name="fname" required>
-                </div>
+                    </form>
+            </body>
+            </html>
 
-                <label for="contact"></label>
-                <input type="email"  placeholder="Email" name="email" required>
-
-                <div id="rep">
-                    <label for="contact"></label>
-                    <input type="email" placeholder="Confirm Email" name="email-confirm" required>
-                </div>
-
-
-                <textarea id="mssg" placeholder="Write your message here" name="comments"></textarea><br />
-
-
-
-                <!-- form -->
-
-                <button name = "submit" type="submit" class="registerbtn">Submit</button>
-            </div>
-
-
-        </form>
-
+        </div>
 
         <script src="main.js"></script>
-        <hr/>
+        <hr>
         <footer>
-
             <div class="foot">
 
-                <P>Stay in touch and follow us</P>
+                <P> - Stay in touch and follow us - </P>
                 <nav class="nav1">
                     <ul class="nav_links">
                         <li>

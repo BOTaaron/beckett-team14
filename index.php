@@ -1,5 +1,7 @@
+
 <!doctype html>
 <html lang="en">
+    
 
 <head>
     <!--character width              -->
@@ -33,10 +35,10 @@
 
                 <ul class="navbar-nav">
                     <li><a class="active" href="#">HOME</a></li>
-                    <li><a href="order.html">ORDER</a></li>
+                    <li><a href="order.php">ORDER</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="about.html">JOIN</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
+                    <li><a href="signIn.php">SIGN IN</a></li>
                 </ul>
             </nav>
         </div>
@@ -46,10 +48,10 @@
             <!--  Side navigation bar links  -->
             <ul>
                 <a class="active" href="#">HOME</a>
-                <a href="order.html">ORDER</a>
+                <a href="order.php">ORDER</a>
                 <a href="contact.php">CONTACT</a>
-                <a href="about.html">ABOUT</a>
-                <a href="about.html">JOIN</a>
+                <a href="about.php">ABOUT</a>
+                <a href="signIn.php">SIGN IN</a>
             </ul>
         </div>
         <div class="main">
@@ -66,7 +68,7 @@
         <footer>
             <div class="foot">
 
-                <P>Get In Touch and Follow us</P>
+                <P> - Stay in touch and follow us - </P>
                 <nav class="nav1">
                     <ul class="nav_links">
                         <li>

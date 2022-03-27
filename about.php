@@ -34,11 +34,11 @@
                 </a>
 
                 <ul class="navbar-nav">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="order.html">ORDER</a></li>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="order.php">ORDER</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                     <li><a class="active" href="#">ABOUT</a></li>
-                    <li><a href="join.html">JOIN</a></li>
+                    <li><a href="signIn.php">SIGN IN</a></li>
                 </ul>
             </nav>
         </div>
@@ -47,11 +47,11 @@
             <a href="#" class="btn-close" onclick="CSM()">&times;</a>
             <!--  Side navigation bar links  -->
             <ul>
-                <a href="index.html">HOME</a>
-                <a href="order.html">ORDER</a>
+                <a href="index.php">HOME</a>
+                <a href="order.php">ORDER</a>
                 <a href="contact.php">CONTACT</a>
                 <a class="active" href="#">ABOUT</a>
-                <a href="join.html">JOIN</a>
+                <a href="signIn.php">SIGN IN</a>
             </ul>
         </div>
 
@@ -84,7 +84,7 @@
         <footer>
             <div class="foot">
 
-                <P>Get In Touch and Follow us</P>
+                <P> - Stay in touch and follow us - </P>
                 <nav class="nav1">
                     <ul class="nav_links">
                         <li>
