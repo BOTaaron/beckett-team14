@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>About</title>
+    <title>order</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
     <link rel="icon" href="images/Logop.jpg" type="image/x-icon">
+
 </head>
 
 <body>
     <div class="container">
-
         <div class="bg-img">
             <nav class="navbar">
                 <!-- side navigation bar   -->
@@ -32,41 +32,49 @@
                 </a>
 
                 <ul class="navbar-nav">
-                    <li><a class="active" href="#">HOME</a></li>
-                    <li><a href="order.html">ORDER</a></li>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a class="active" href="#">ORDER</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="about.html">JOIN</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
+                    <li><a href="signIn.php">SIGN IN</a></li>
                 </ul>
+                <span><input type="text" placeholder ="Find a drink.."></span>
+
+
             </nav>
+
         </div>
         <div id="side-menu" class="side-nav">
 
             <a href="#" class="btn-close" onclick="CSM()">&times;</a>
             <!--  Side navigation bar links  -->
             <ul>
-                <a class="active" href="#">HOME</a>
-                <a href="order.html">ORDER</a>
+                <a href="index.php">HOME</a>
+                <a class="active" href="#">ORDER</a>
                 <a href="contact.php">CONTACT</a>
-                <a href="about.html">ABOUT</a>
-                <a href="about.html">JOIN</a>
+                <a href="about.php">ABOUT</a>
+                <a href="signIn.php">JOIN</a>
             </ul>
         </div>
-        <div class="main">
-            <!--main page content-->
-            <span>
-            <img src="images/coffee-shop.jpg" alt="coffee bar" />
-           
-                <div id="floatImg"><img src="images/citycentre.jpg" alt="location" /></div>
-            </span>
 
+
+
+
+        <!--main page content will come here-->
+
+
+        <div class="maindrinks">
+            <img src="images/p.jpg" alt="drinks" />
+            <img src="images/p.jpg" alt="drinks" />
         </div>
 
         <script src="main.js"></script>
+        <hr/>
         <footer>
+
             <div class="foot">
 
-                <P>Get In Touch and Follow us</P>
+                <P> - Stay in touch and follow us - </P>
                 <nav class="nav1">
                     <ul class="nav_links">
                         <li>
