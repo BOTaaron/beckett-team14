@@ -6,14 +6,14 @@
     if(isset($_POST['subUser'])){
         //collect data from
         $id=$_POST['txtID'];
-        $name=$_POST['txtName'];
+        $email=$_POST['txtEmail'];
         $pass=$_POST['txtPass'];
 
         //produce a query to INSERT INTO table
         $query = "INSERT INTO users
-                (userID, userName, userPass)
+                (userID, userEmail, userPass)
             VALUES
-                ('$id', '$name', '$pass')";
+                ('$id', '$email', '$pass')";
 
                 //echo $query;
                // exit();
@@ -22,7 +22,7 @@
 
             mysqli_query($connection, $query);
 
-            header('location:accountCreated.php');
+            header('location:accountCreated.html');
 
     }
 
