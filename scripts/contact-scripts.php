@@ -18,7 +18,7 @@ if (mysqli_connect_errno()) {
 
 } elseif (isset($_POST['submit'])) {
     //isset method to check whether submit button is clicked, if so code runs (above)
-    //takes data submitted into the 'contact us' form and saves it into constants (below)
+    //takes data submitted into the 'contact us' form and saves it into variables (below)
     $fname = $conn->real_escape_string($_POST['fname']);
     $email = $conn->real_escape_string($_POST['email']);
     $confirmEmail = $conn->real_escape_string($_POST['email-confirm']);
