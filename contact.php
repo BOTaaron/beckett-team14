@@ -17,6 +17,9 @@
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
     <link rel="icon" href="images/Logop.jpg" type="image/x-icon">
+     <!-- social media icons -->
+     <link rel="icon" href="images/Logop.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 </head>
 
@@ -94,29 +97,62 @@
         </form>
 
 
+        <footer class="footer">
         <script src="main.js"></script>
-        <hr/>
-        <footer>
-
-            <div class="foot">
-
-                <P>Stay in touch and follow us</P>
-                <nav class="nav1">
-                    <ul class="nav_links">
-                        <li>
-                            <a href="https://www.facebook.com"><img src="images/facebook.jpg" alt="facebook icon"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.twitter.com"><img src="images/twitter.jpg" alt="twitter icon"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
-                        </li>
+        <div class="fcontainer">
+            <div class="row">
+                <div class="footer-col">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="order.php">ORDER</a></li>
+                        <li><a href="contact.php">CONTACT</a></li>
+                        <li><a href="about.php">ABOUT</a></li>
+                        <li><a href="signIn.php">SIGN UP TODAY</a></li>
                     </ul>
-                    <P>PixelChills &#64;2022</P>
-                </nav>
-            </div>
+                </div>
+                <div class="footer-col">
+                    <ul>
 
+                        <li><a href="#">FIND PIXEL</a></li>
+                        <li><a href="#">CAREERS</a></li>
+                        <li><a href="#">HELP</a></li>
+                        <li><a href="#">ADS AND COOKIES</a></li>
+
+
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+
+                    <ul>
+                        <li><a href="#">PRIVACY</a></li>
+                        <li><a href="#">POLICIES</a></li>
+                        <li><a href="#">TERMS AND CONDITIONS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>FOLLOW US</h3>
+                    <div class="socialM-links">
+
+                        <a href="https://facebook.com"><em class="fab fa-facebook-f"></em></a>
+                        <a href="https://twitter.com"><em class="fab fa-twitter"></em></a>
+                        <a href="https://whatsapp.com"><em class="fab fa-whatsapp"></em></a>
+                        <a href="https://microsoft.com"><em class="fab fa-microsoft"></em></a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <hr/>
+        <span class="pix">
+           <P>PixelChills &#64;2022</P>
+         </span>
+
+
+    
         </footer>
 
     </div>
