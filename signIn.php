@@ -41,7 +41,7 @@
                     <li><a href="order.php">ORDER</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                     <li><a href="about.php">ABOUT</a></li>
-                    <li><a href="signIn.php">SIGN IN</a></li>
+                    <li><a class="active" href="#">SIGN IN</a></li>
                 </ul>
             </nav>
         </div>
@@ -55,7 +55,7 @@
                 <a href="order.php">ORDER</a>
                 <a href="contact.php">CONTACT</a>
                 <a href="about.php">ABOUT</a>
-                <a href="signIn.php">ACCOUNT</a>
+                <a class="active" href="#">ACCOUNT</a>
             </ul>
         </div>
 
