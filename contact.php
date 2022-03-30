@@ -26,6 +26,7 @@
 <body>
     <div class="container">
 
+    <div class="all_nav">
         <div class="bg-img">
             <nav class="navbar">
                 <!-- side navigation bar   -->
@@ -48,6 +49,7 @@
                 </ul>
             </nav>
         </div>
+        </div>
         <div id="side-menu" class="side-nav">
 
             <a href="#" class="btn-close" onclick="CSM()">&times;</a>
@@ -57,7 +59,7 @@
                 <a href="order.php">ORDER</a>
                 <a class="active" href="#">CONTACT</a>
                 <a href="about.php">ABOUT</a>
-                <a href="signIn.php">JOIN</a>
+                <a href="signIn.php">ACCOUNT</a>
             </ul>
         </div>
 

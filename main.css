@@ -145,6 +145,14 @@ hr {
 
 /* ************************** */
 
+.all_nav {
+    /* make the navbar remain visible after scroll*/
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
 .navbar {
     overflow: hidden;
     height: 167px;
@@ -160,7 +168,6 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     /* positioning the navbar*/
-    position: relative;
 }
 
 .navbar a {
@@ -184,14 +191,15 @@ hr {
 }
 
 .navbar a:hover {
-    color: peachpuff;
+    /* highlight pointed link */
+    color: plum;
 }
 
 .navbar .active {
     /** highlight the current page **/
     border-radius: 9px;
     height: 29px;
-    color: peachpuff;
+    color: plum;
 }
 
 .navbar input[type=text] {
@@ -232,14 +240,16 @@ hr {
 /* ************************** */
 
 .side-nav {
+    /* style the whole side nav bar */
     height: 75%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
+    margin-top: 163px;
     background-color: #962c3a;
-    opacity: 0.9;
+    opacity: 1;
     overflow-x: hidden;
     border-radius: 0px 10px 900px 0px;
     padding-top: 60px;
@@ -247,7 +257,8 @@ hr {
 }
 
 .side-nav a {
-    padding: 10px 10px 10px 30px;
+    /* different link properties */
+    padding: 10px 10px 10px 5px;
     text-decoration: none;
     font-size: 25px;
     float: left;
@@ -256,19 +267,34 @@ hr {
 }
 
 .side-nav a:hover {
-    color: peachpuff;
+    /* highlight pointed link */
+    color: plum;
 }
 
 .side-nav .active {
-    color: peachpuff;
+    /** highlight the current page **/
+    color: plum;
 }
 
 .side-nav .btn-close {
+    /** when the close button is clicked **/
     position: absolute;
     top: 0;
+    margin-top: 10px;
     right: 22px;
-    font-size: 36px;
-    margin-left: 50px;
+    font-size: 30px;
+    margin-left: 60px;
+    border-radius: 60PX;
+    border-style: solid;
+    color: plum;
+}
+
+.svg {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    block-size: 30px;
+    transition: 0.3s ease;
 }
 
 
@@ -287,6 +313,7 @@ hr {
 /* ************************** */
 
 .fcontainer {
+    /** whole footer area **/
     text-align: left;
     max-width: 1170px;
     margin: auto;
@@ -294,6 +321,7 @@ hr {
 }
 
 .row {
+    /** rows of the footer **/
     display: flex;
     flex-wrap: wrap;
 }
@@ -308,16 +336,19 @@ ul {
 }
 
 .footer-col {
+    /** columns of the footer **/
     width: 22%;
     padding: 0 15px;
     color: aqua;
 }
 
 .footer-col ul li:not(:last-child) {
+    /** last item of the link **/
     margin-bottom: 10px;
 }
 
 .footer-col ul li a {
+    /** page links behaviour**/
     font-size: 16px;
     text-transform: capitalize;
     text-decoration: none;
@@ -328,11 +359,13 @@ ul {
 }
 
 .footer-col ul li a:hover {
+    /* highlight pointed link */
     color: #ffffff;
     padding-left: 8px;
 }
 
 .footer-col .socialM-links a {
+    /* social media links look */
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -345,16 +378,19 @@ ul {
 }
 
 .footer-col .socialM-links a:hover {
-    color: #24262b;
+    /* highlight pointed link */
+    color: #962c3a;
     background-color: ffffff;
 }
 
 .footer h3 {
+    /* heading 3 */
     color: #ffffff;
     font-size: 14PX;
 }
 
 .pix {
+    /* name declaration */
     text-align: right;
     color: #ffffff;
 }
@@ -375,6 +411,7 @@ ul {
 /* ************************** */
 
 button {
+    /* buton look and style */
     padding: 9px 25px;
     background-color: #962c3a;
     border-style: solid;
@@ -386,6 +423,7 @@ button {
 input[type=email],
 input[type=text],
 input[type=name] {
+    /* form input area and look */
     width: 250px;
     height: 5px;
     padding: 15px;
@@ -398,25 +436,29 @@ input[type=name] {
 }
 
 input[type=email]:focus input[type=text]:focus {
+    /* highlight pointed input are */
     background-color: #ddd;
     outline: none;
 }
 
 input[type=name]:focus {
+    /* highlight input area */
     background-color: #ddd;
     outline: none;
 }
 
 p {
+    /* paragraph text style */
     color: white;
 }
 
 label {
+    /* label style */
     color: black;
 }
 
 .formContainer #mssg {
-    /* the message box */
+    /* the message box style*/
     background-color: aliceblue;
     width: 550px;
     height: 250px;
@@ -429,6 +471,7 @@ label {
 }
 
 button:hover {
+    /* highlight pointed button */
     background-color: slateblue;
 }
 
