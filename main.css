@@ -7,6 +7,7 @@
 /* ************************** */
 
 .container {
+    /* the whole html page */
     width: 100%;
     background-color: #962c3a;
 }
@@ -43,6 +44,7 @@ h2 {
 }
 
 .main img {
+    /* main image of the home page style */
     height: 100%;
     width: 100%;
     position: relative;
@@ -50,6 +52,7 @@ h2 {
 }
 
 .story {
+    /* the story page structure */
     background-color: #962c3a;
     margin: 0%;
     padding: 0%;
@@ -60,6 +63,7 @@ h2 {
 /* about page image content */
 
 .main #abtT {
+    /* the link text */
     position: absolute;
     top: 30%;
     left: 60%;
@@ -70,20 +74,20 @@ h2 {
     border-radius: 8px;
 }
 
-
-/*  the link text*/
-
 .main #abtT a {
+    /*  the link text*/
     text-decoration: none;
     color: #ffffff;
 }
 
 .main #abtT li {
+    /*  the link text*/
     list-style: none;
     padding: 2px;
 }
 
 .main #abtI img {
+    /*  the image*/
     width: 100%;
     height: 500px;
 }
@@ -107,6 +111,7 @@ h2 {
 }
 
 hr {
+    /*  that horizontal line*/
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
@@ -124,10 +129,6 @@ hr {
     width: 100px;
     height: 60px;
     margin: auto;
-}
-
-.foot {
-    background-color: #962c3a;
 }
 
 
