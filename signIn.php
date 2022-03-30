@@ -12,7 +12,7 @@
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
-    <link rel="icon" href="images/Logop.jpg" type="image/x-icon">
+    <link rel="icon" href="images/Logop2.jpg" type="image/x-icon">
      <!-- social media icons -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
