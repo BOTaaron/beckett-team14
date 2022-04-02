@@ -61,11 +61,14 @@
 
         <div class="main">
             <!--main page content-->
+
             
-                <br />
-                <br />
-                <h1> - SIGN IN - </h1>
+                <div class="container b">
+                <h2> - SIGN IN - </h2>
                 <p>Dont forget to log in to see our latest events and offers.</p>
+                </div>
+
+                <div class="container">
 
                     <form method="post" action="insertRecord.php">
 
@@ -78,8 +81,11 @@
                         <button name = "subUser" type="submit" class="registerbtn">SIGN UP</button>
                         <br />
                         <br />
-                        <h2> Not a member? <a href="createAccount.html"><u>Register here</u></a></small></h2>
+                        <h2> Not a member? <a href="createAccount.php">Register here</a></h2>
                         <br />    
+                        <br />
+               
+            </div>
 
                     </form>
 
@@ -137,7 +143,7 @@
         </div>
         <hr/>
         <span class="pix">
-           <P>PixelChills &#64;2022</P>
+           <P>© PIXELCHILLS. ALL RIGHTS RESERVED</P>
          </span>
 
 

@@ -125,7 +125,7 @@
         </div>
         <hr/>
         <span class="pix">
-           <P>PixelChills &#64;2022</P>
+           <P>© PIXELCHILLS. ALL RIGHTS RESERVED</P>
          </span>
 
 

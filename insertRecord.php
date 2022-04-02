@@ -1,7 +1,7 @@
 <?php
 
     //include connection
-    include 'databaseConnection.php';
+    include __DIR__.'\scripts\databaseConnection.php';
     //has the form been submitted?
     if(isset($_POST['subUser'])){
         //collect data from
@@ -22,15 +22,7 @@
 
             mysqli_query($connection, $query);
 
-            header('location:accountCreated.html');
+            header('location:accountCreated.php');
 
     }
-
-
-
-        
-
-
-
-
-
+    ?>
