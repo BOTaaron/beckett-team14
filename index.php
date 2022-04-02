@@ -74,12 +74,15 @@
 
         
         
+        <!-- page footer  !-->
         <footer class="footer">
+            <!-- javascript link   !-->
         <script src="main.js"></script>
-        <div class="fcontainer">
+    
+        <div class="fcontainer"><!-- the whole footer section  !-->
             <div class="row">
                 <div class="footer-col">
-                    <ul>
+                    <ul>             <!--  navbar links in the footer section !-->
                         <li><a href="#">HOME</a></li>
                         <li><a href="order.php">ORDER</a></li>
                         <li><a href="contact.php">CONTACT</a></li>
@@ -89,7 +92,7 @@
                 </div>
                 <div class="footer-col">
                     <ul>
-
+                                       <!--  other links !-->
                         <li><a href="#">FIND PIXEL</a></li>
                         <li><a href="#">CAREERS</a></li>
                         <li><a href="#">HELP</a></li>
@@ -101,7 +104,7 @@
                 </div>
                 <div class="footer-col">
 
-                    <ul>
+                    <ul>           <!-- other links  !-->
                         <li><a href="#">PRIVACY</a></li>
                         <li><a href="#">POLICIES</a></li>
                         <li><a href="#">TERMS AND CONDITIONS</a></li>
@@ -109,7 +112,7 @@
                 </div>
                 <div class="footer-col">
                     <h3>FOLLOW US</h3>
-                    <div class="socialM-links">
+                    <div class="socialM-links"> <!--  social media links !-->
 
                         <a href="https://facebook.com"><em class="fab fa-facebook-f"></em></a>
                         <a href="https://twitter.com"><em class="fab fa-twitter"></em></a>
@@ -124,8 +127,8 @@
             </div>
         </div>
         <hr/>
-        <span class="pix">
-           <P>© PIXELCHILLS. ALL RIGHTS RESERVED</P>
+        <span class="pix"> <!-- name declaration  !-->
+           <P>PixelChills &#64;2022</P>
          </span>
 
 
