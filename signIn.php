@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>about</title>
+    <title>Sign In</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
@@ -60,13 +60,19 @@
         </div>
 
         <div class="main">
-            <!--main page content-->
-
-            
-                <div class="container b">
-                <h2> - SIGN IN - </h2>
-                <p>Dont forget to log in to see our latest events and offers.</p>
+            <!--This code is poorly written and confusing to read but it works + all the functions work so maybe leave it for now-->
+                   
+                <div class="container">
                 </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <h4> SIGN IN </h4>
+                <br />
+                <br />
+                <p>Dont forget to log in to see our latest events and offers</p>
 
                 <div class="container">
 
@@ -74,8 +80,7 @@
 
                         <input type="text" placeholder="Email*" name="txtEmail" />
                         <br />
-                        <input type="text" placeholder="Password*" name="txtPass" />
-                        <br />
+                        <input type="password" placeholder="Password*" name="txtPass">
                         <a href="passwordReset.php"><p><u> Forgotten your password?</u></p></a>
                         <br />
                         <button name = "subUser" type="submit" class="registerbtn">SIGN UP</button>
@@ -83,20 +88,13 @@
                         <br />
                         <h2> Not a member? <a href="createAccount.php">Register here</a></h2>
                         <br />    
-                        <br />
-               
-            </div>
-
                     </form>
-
-        </div>
-        <hr/>
-
-        <!-- page footer  !-->
+                    
+            <!-- page footer  !-->
         <footer class="footer">
             <!-- javascript link   !-->
         <script src="main.js"></script>
-    
+        <hr size="1" width="100%" color="white">
         <div class="fcontainer"><!-- the whole footer section  !-->
             <div class="row">
                 <div class="footer-col">
@@ -146,7 +144,7 @@
         </div>
         <hr/>
         <span class="pix"> <!-- name declaration  !-->
-           <P>PixelChills &#64;2022</P>
+           <P>© PIXELCHILLS. All Rights Reserved.</P>
          </span>
 
 

@@ -34,6 +34,16 @@ h2 {
     color: whitesmoke;
 }
 
+h4 {
+    font-family: century gothic;
+    font-size: 50px;
+    color: whitesmoke;
+    display: inline;
+    border-bottom: 3px solid #d16b78;
+    border-top: 3px solid #d16b78;
+    
+}
+
 .main {
     /*Page content*/
     transition: margin-left 1.9s;
@@ -42,6 +52,12 @@ h2 {
     color: white;
     font-size: 20px;
 }
+
+.main a{
+    color: white;
+    text-decoration: underline;
+}
+
 
 .main img {
     /* main image of the home page style */
@@ -111,6 +127,7 @@ h2 {
 hr {
     /*  that horizontal line*/
     border: 1px solid #f1f1f1;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -331,7 +348,7 @@ ul {
 
 .footer {
     background-color: #962c3a;
-    padding: 50px;
+    padding: 30px;
 }
 
 .footer-col {
@@ -421,7 +438,8 @@ button {
 
 input[type=email],
 input[type=text],
-input[type=name] {
+input[type=name],
+input[type=password] {
     /* form input area and look */
     width: 250px;
     height: 5px;

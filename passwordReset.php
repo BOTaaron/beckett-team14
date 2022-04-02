@@ -1,7 +1,7 @@
 <?php
 
 
-    $userEmail = $_POST ['email'];
+    $userEmail = isset($_POST ['email']) ? $_POST ['email'] : "";
     $messageSubject = 'Reset your Pixelchills password';
 
     $to = "$userEmail";
@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>about</title>
+    <title>Password Reset</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
@@ -76,23 +76,40 @@
             </ul>
         </div>
             <!--main page content-->
-
+             <body>
+                <body style="background-color: #962c3a;text-align:center">
+                </body>
+                <div class="container">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <h1>RESET YOUR PASSWORD</h1>
                 <p>Enter the email address used to register your account with us.</p>
-                <body>
-
+             
+                </div>
+                
+                
     <div class="container">
         <form action="passwordReset.php" method="POST" class="form">
             <div class="form-group">
                 <input type="text" class="form-control" id="email" name="email" placeholder="Email*" tabindex="1" required>
+                <div>
+                    <br>
                 <button type="submit" class="btn">SUBMIT</button>
-            </div>
-        </form>
-    </div>
-</body>
-
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            
+      
         <footer class="footer">
         <script src="main.js"></script>
+        <hr size="1" width="100%" color="white">
         <div class="fcontainer">
             <div class="row">
                 <div class="footer-col">

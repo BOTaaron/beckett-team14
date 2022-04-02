@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>order</title>
+    <title>Order Online</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
@@ -129,7 +129,7 @@
         </div>
         <hr/>
         <span class="pix"> <!-- name declaration  !-->
-           <P>PixelChills &#64;2022</P>
+           <P>© PIXELCHILLS. All Rights Reserved.</P>
          </span>
 
 
