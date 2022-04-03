@@ -51,7 +51,7 @@
         </div>
         <div id="side-menu" class="side-nav">
 
-            <a href="#" class="btn-close" onclick="CSM()">&times;</a>
+        <a href="#" class="btn-close" onclick="CSM()"><img src="icons/bak.png" alt="back icon" /></a>
             <!--  Side navigation bar links  -->
             <ul>
                 <a href="index.php">HOME</a>
