@@ -5,7 +5,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "contact_us";
+$database = "waiter_db";
 
 //start the database. Hostname of localhost, username of pixelchills, no password, and use a database named 'contact-us'
 $conn = mysqli_connect($servername, $username, $password, $database);
