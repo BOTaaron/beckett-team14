@@ -277,17 +277,16 @@ hr {
     color: plum;
 }
 
-.side-nav .btn-close {
+.side-nav .btn-close img {
     /** when the close button is clicked **/
     position: absolute;
     top: 0;
     margin-top: 10px;
-    right: 22px;
-    font-size: 30px;
+    right: 15px;
+    font-size: 20px;
     margin-left: 60px;
-    border-radius: 60PX;
-    border-style: solid;
-    color: plum;
+    width: 40px;
+    height: 40px;
 }
 
 .svg {
