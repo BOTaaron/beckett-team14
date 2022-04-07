@@ -1,11 +1,3 @@
-/* ************************** */
-
-
-/** Page Structure **/
-
-
-/* ************************** */
-
 .container {
     /* the whole html page */
     width: 100%;
@@ -131,6 +123,48 @@ hr {
     margin: auto;
 }
 
+.search-bar {
+    position: absolute;
+    background-color: white;
+    top: 86%;
+    transform: translate(-50%, -50%);
+    height: 45px;
+    left: 81%;
+    border-radius: 60px;
+}
+
+.search-btn {
+    float: right;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar:hover>.search-txt {
+    width: 203px;
+    padding: 0 6px;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: right;
+    padding: 0;
+    font-size: 20px;
+    transition: 1s;
+    line-height: 40px;
+    width: 0px;
+    color: #962c3a;
+}
+
+.search-btn img {
+    width: 38px;
+    height: 38px;
+}
+
 
 /* ************************** */
 
@@ -177,7 +211,7 @@ hr {
     display: block;
     color: floralwhite;
     text-align: center;
-    padding: 14px 80px 10px 10px;
+    padding: 14px 60px 10px 10px;
     text-decoration: none;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -201,15 +235,6 @@ hr {
     border-radius: 9px;
     height: 29px;
     color: plum;
-}
-
-.navbar input[type=text] {
-    /** search **/
-    float: right;
-    border: none;
-    margin-top: 10px;
-    margin-right: 70px;
-    font-size: 16px;
 }
 
 .nav_links {
@@ -379,7 +404,7 @@ ul {
 
 .footer-col .socialM-links a:hover {
     /* highlight pointed link */
-    color: #962c3a;
+    color: plum;
     background-color: ffffff;
 }
 
