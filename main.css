@@ -125,38 +125,31 @@ hr {
 
 .search-bar {
     position: absolute;
-    background-color: plum;
-    color: rebeccapurple;
+    background-color: white;
     top: 86%;
     transform: translate(-50%, -50%);
     height: 45px;
-    left: 79%;
+    left: 81%;
     border-radius: 60px;
 }
 
 .search-btn {
-    color: greenyellow;
     float: right;
     width: 45px;
     height: 45px;
-    border-radius: 50%;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .search-bar:hover>.search-txt {
-    width: 250px;
+    width: 203px;
     padding: 0 6px;
-    color: #962c3a;
-    background-color: green;
 }
 
 .search-txt {
     border: none;
     background: none;
-    color: #962c3a;
     outline: none;
     float: right;
     padding: 0;
@@ -164,6 +157,7 @@ hr {
     transition: 1s;
     line-height: 40px;
     width: 0px;
+    color: #962c3a;
 }
 
 .search-btn img {
