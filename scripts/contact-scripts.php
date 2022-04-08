@@ -2,10 +2,10 @@
 
 // database credentials. Set up to use phpMyAdmin and must be adjusted depending on the DB
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "waiter_db";
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$database = 'waiter_db';
 
 //start the database. Hostname of localhost, username of pixelchills, no password, and use a database named 'contact-us'
 $conn = mysqli_connect($servername, $username, $password, $database);

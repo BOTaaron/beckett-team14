@@ -1,4 +1,12 @@
+<?php
+session_start();
+// start a session, and include the scripts file
+include __DIR__.'\scripts\basket-scripts.php';
+$pdo = pdo_connect_mysql();
 
+
+
+?>
 <!doctype html>
 <html lang="en">
     
