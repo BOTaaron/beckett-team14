@@ -560,16 +560,20 @@ button:hover {
     .pxlogo {
         display: none
     }
+
     .navbar-nav {
         display: none;
     }
+
     .search {
         display: none
     }
+
     .main img {
         width: 100%;
         height: 100%;
     }
+
     .main #floatImg {
         height: 350px;
         width: 350px;
@@ -577,18 +581,66 @@ button:hover {
         top: 110px;
         left: 2px;
     }
+
     .container {
         width: 100%;
         box-sizing: border-box;
     }
+
     .svg {
         position: absolute;
         top: 93px;
         left: 3px;
     }
+
     .footer-col {
         width: 25%;
         padding: 0 15px;
         margin-bottom: 30px;
     }
 }
+/* ************************** */
+
+.card {
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    text-align: center;
+    font-family: arial;
+    border: medium groove black;
+    background-color: #9c2a2a;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.price {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+.card-image {
+    height: 300px;
+    width: 300px;
+}
+
+
+/* ************************** */
+

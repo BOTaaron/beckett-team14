@@ -69,17 +69,80 @@
             </ul>
         </div>
 
-        <div class="main">
+        <div class="products">
             <!--main page content will come here-->
 
-
-
-
-
-            <div class="maindrinks">
-                <img src="images/p.jpg" alt="drinks" />
-                <img src="images/p.jpg" alt="drinks" />
+            <br>
+            <div class="card">
+                <img class="card-image" src="images/americano.jpg" alt="Americano" height="250" width="250">
+                <h1>Americano</h1>
+                <p class="price">£1.99</p>
+                <p>A hot, black coffee</p>
+                <p><button>Add to Cart</button></p>
             </div>
+
+            <div class="card">
+                <img class="card-image" src="images/cappuccino.jpg" alt="Cappuccino" height="300" width="300">
+                <h1>Cappuccino</h1>
+                <p class="price">£2.49</p>
+                <p>A hot, frothy, milky coffee</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="images/latte.jpg" alt="latte" height="300" width="300">
+                <h1>Latte</h1>
+                <p class="price">£2.49</p>
+                <p>A hot, frothy, milky coffee</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
+                <h1>Tea</h1>
+                <p class="price">£2.49</p>
+                <p>A hot cup of tea, served with biscuits</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+            <br>
+
+            <div class="card cell4">
+                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
+                <h1>Tea</h1>
+                <p class="price">£2.49</p>
+                <p>A hot cup of tea, served with biscuits</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+            <div class="card cell4">
+                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
+                <h1>Tea</h1>
+                <p class="price">£2.49</p>
+                <p>A hot cup of tea, served with biscuits</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+            <div class="card cell4">
+                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
+                <h1>Tea</h1>
+                <p class="price">£2.49</p>
+                <p>A hot cup of tea, served with biscuits</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+            <div class="card cell4">
+                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
+                <h1>Tea</h1>
+                <p class="price">£2.49</p>
+                <p>A hot cup of tea, served with biscuits</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+
+
+
+
 
 
 
