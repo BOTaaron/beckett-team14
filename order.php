@@ -72,7 +72,12 @@
         <div class="products">
             <!--main page content will come here-->
 
+            <!-- Hot drinks banner for order page -->
+            <img class="banner" src="images/hot-drink-banner.png">
             <br>
+
+
+            <!-- Product cards begin here. For demo, 4 will be used for each category. -->
             <div class="card">
                 <img class="card-image" src="images/americano.jpg" alt="Americano" height="250" width="250">
                 <h1>Americano</h1>
@@ -105,37 +110,41 @@
                 <p><button>Add to Cart</button></p>
             </div>
 
+
+            <!-- SECOND ROW OF PRODUCTS STARTS HERE -->
+            <img class="banner" src="images/hot-drink-banner.png">
             <br>
 
-            <div class="card cell4">
-                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
-                <h1>Tea</h1>
-                <p class="price">£2.49</p>
-                <p>A hot cup of tea, served with biscuits</p>
+
+            <div class="card">
+                <img class="card-image" src="images/water.jpg" alt="bottled water" height="300" width="300">
+                <h1>Bottled Water</h1>
+                <p class="price">£1.69</p>
+                <p>Bottled water with a glass of ice</p>
                 <p><button>Add to Cart</button></p>
             </div>
 
-            <div class="card cell4">
-                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
-                <h1>Tea</h1>
-                <p class="price">£2.49</p>
-                <p>A hot cup of tea, served with biscuits</p>
+            <div class="card">
+                <img class="card-image" src="images/orange.jpg" alt="orange juice" height="300" width="300">
+                <h1>Orange Juice</h1>
+                <p class="price">£1.99</p>
+                <p>Fresh orange juice</p>
                 <p><button>Add to Cart</button></p>
             </div>
 
-            <div class="card cell4">
-                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
-                <h1>Tea</h1>
-                <p class="price">£2.49</p>
-                <p>A hot cup of tea, served with biscuits</p>
+            <div class="card">
+                <img class="card-image" src="images/coke.jpg" alt="coca cola" height="300" width="300">
+                <h1>Coca Cola</h1>
+                <p class="price">£1.99</p>
+                <p>A cold can of Coca Cola, served with ice</p>
                 <p><button>Add to Cart</button></p>
             </div>
 
-            <div class="card cell4">
-                <img class="card-image" src="images/tea.jpg" alt="tea" height="300" width="300">
-                <h1>Tea</h1>
+            <div class="card">
+                <img class="card-image" src="images/fanta.jpg" alt="fanta" height="300" width="300">
+                <h1>Fanta</h1>
                 <p class="price">£2.49</p>
-                <p>A hot cup of tea, served with biscuits</p>
+                <p>A cold can of Fanta, served with ice</p>
                 <p><button>Add to Cart</button></p>
             </div>
 

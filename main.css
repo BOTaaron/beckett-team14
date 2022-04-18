@@ -631,6 +631,7 @@ button:hover {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+
 }
 
 .card button:hover {
@@ -639,6 +640,11 @@ button:hover {
 .card-image {
     height: 300px;
     width: 300px;
+}
+.banner {
+
+    padding-top: 50px;
+
 }
 
 
