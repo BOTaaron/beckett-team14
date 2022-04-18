@@ -73,7 +73,7 @@
             <!--main page content will come here-->
 
             <!-- Hot drinks banner for order page -->
-            <img class="banner" src="images/hot-drink-banner.png">
+            <img class="banner" src="images/hot-drink-banner.png" style="margin-bottom: 25px; margin-top: 25px"  >
             <br>
 
 
@@ -112,7 +112,7 @@
 
 
             <!-- SECOND ROW OF PRODUCTS STARTS HERE -->
-            <img class="banner" src="images/hot-drink-banner.png">
+            <img class="banner" src="images/hot-drink-banner.png" style="margin-top: 25px; margin-bottom: 25px">
             <br>
 
 
