@@ -72,7 +72,7 @@
                 <h4> SIGN IN </h4>
                 <br />
                 <br />
-                <p>Log in or create an account to see our latest events and offers</p>
+                <p>Log in or create an account to see our latest offers and events</p>
 
                 <div class="container">
 
