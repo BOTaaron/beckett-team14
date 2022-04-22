@@ -68,7 +68,7 @@
                 <div id="abtT">
                 
                    <ul>
-                    <li><a href="ourstory.php"> Read Our Story Here </a></li>
+                    <li><a href="ourstory.php"> Click to see our story... </a></li>
                    </ul>                
                     
                 </div>

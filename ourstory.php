@@ -59,16 +59,16 @@
         <div class="main">
             <!--main page content-->
             <div class="story">
-            <p>Our business started in 1992 by our founders who rose from regular chefs to Certified Master Chefs. Working at Great Foods their entire life, they decided it was time to own own a business. After obtaining the title Master Chef, they wanted
-                to make a huge impact in the food industry independently. Through dedication and experimentation, they came up with multiple great tasty menus and eventually the business sprang up.
+            <p>Our business started in 1992 when our founders rose from regular chefs to certified master chefs. Working at Great Foods their entire life, they decided it was time to start their business. After obtaining the title Master Chef, they wanted
+                to make an impact in the hospitality sector. Through dedication and experimentation, they came up with tasty menus causing the business to explode.
             </p>
-            <p>Today, our primary goal is to thrive as an excellent restaurant with delicious menus and unparalled customer servicing. We have worked hard to become the number one food supplier ever since. For 5 years we have held this position and we aim
-                to keep it that way. We have become every celebrityu's favourite food spot across the country with other visits from international ones.
+            <p>Today, our primary goal is to thrive as an excellent restaurant with delicious food and unbeatable customer service. We have worked hard to become the number one restaurant ever since. For 5 years we have held this position, and we aim
+                to keep it that way. We have become every celebrity's favourite food destination across the country, with visits from international celebrities.
             </p>
 
             <p>
-                Spanning across the UK, our number of brunches continues to grow due to high demand for our quality food and service. We do not take our customers for granted therefore our primary objectives have always been to provide great tasty menus to our valued
-                consumers with unparalled professional service.
+                Spanning across the UK, our number of chains continue to grow due to high demand for good quality food and service. We never take our customers for granted and our primary objective will always be to provide great, tasty food to our valued
+                consumers with unparalleled customer service.
             </p>
             </div>
               <!--main page content ends here-->

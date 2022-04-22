@@ -76,7 +76,6 @@ h4 {
     left: 60%;
     font-size: 30px;
     font-weight: bolder;
-    background-color: #962c3a;
     color: white;
     border-radius: 8px;
 }
@@ -93,11 +92,12 @@ h4 {
     padding: 2px;
 }
 
+/* about page image
 .main #abtI img {
-    /*  the image*/
     width: 100%;
     height: 500px;
 }
+*/
 
 /*   floating image on the home page    */
 
@@ -641,6 +641,8 @@ button:hover {
     height: 300px;
     width: 300px;
 }
+
+
 
 
 
