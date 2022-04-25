@@ -1,23 +1,3 @@
-<?php
-
-
-    $userEmail = isset($_POST ['email']) ? $_POST ['email'] : "";
-    $messageSubject = 'Reset your Pixelchills password';
-
-    $to = "$userEmail";
-    
-    $body = 'Please click the attatched link to reset your password, if you did not make this request ignore this email.';
-    $resetLink = 'http://localhost/beckett-team14/changePassword.php';
-    mail($to,$messageSubject,$resetLink,$body);
-
-
-if(isset($_POST['email'])){
-header("Location: resetConfirmed.php");
-exit;
-}
-
-?>
-
 <!doctype html>
 <html lang="en">
 
@@ -57,19 +37,21 @@ exit;
                 <br>
                 <br>
                 <br>
-                <h1>RESET YOUR PASSWORD</h1>
-                <p>Enter the email address used to register your account with us.</p>
+                <h1>PASSWORD RESET</h1>
+                <p>Please enter your new password</p>
              
                 </div>
                 
                 
     <div class="container">
-        <form action="passwordReset.php" method="POST" class="form">
             <div class="form-group">
-                <input type="text" class="form-control" id="email" name="email" placeholder="Email*" tabindex="1" required>
+                <input type="password" class="form-control" id="email" name="New password" placeholder="New password*" tabindex="1" required>
+                <br>
+                <input type="password" class="form-control" id="email" name="Confirm password" placeholder="Confirm password*" tabindex="2" required>
+
                 <div>
                     <br>
-                <button type="submit" class="btn">SUBMIT</button>
+                <button type="submit" class="btn" onclick="location.href='changePasswordConfirmed.php'">CONFIRM</button>
                 </div>
                 <br>
                 <br>

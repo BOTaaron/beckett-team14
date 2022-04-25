@@ -33,7 +33,6 @@ h4 {
     display: inline;
     border-bottom: 3px solid #d16b78;
     border-top: 3px solid #d16b78;
-    
 }
 
 .main {
@@ -92,12 +91,8 @@ h4 {
     padding: 2px;
 }
 
-/* about page image
-.main #abtI img {
-    width: 100%;
-    height: 500px;
-}
-*/
+
+
 
 /*   floating image on the home page    */
 
@@ -140,18 +135,18 @@ hr {
 
 .search-bar {
     position: absolute;
-    background-color: white;
-    top: 86%;
+    background-color: rgb(255, 255, 255);
+    top: 87.5%;
     transform: translate(-50%, -50%);
-    height: 45px;
+    height: 34px;
     left: 81%;
     border-radius: 60px;
 }
 
 .search-btn {
     float: right;
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,12 +167,12 @@ hr {
     transition: 1s;
     line-height: 40px;
     width: 0px;
-    color: #962c3a;
+    color: rgb(158, 81, 81);
 }
 
 .search-btn img {
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
 }
 
 
@@ -643,8 +638,178 @@ button:hover {
 }
 
 
+/* About page CSS */
+
+.ourStoryHeading
+{
+  position: absolute;
+  top: -50px;
+  right: 350px;
+  width: 700px;
+  height: 100px;
+  font-size: 40px;
+  font-family: century gothic;
+  color: whitesmoke;
+  text-align: justify;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #d16b78;
+  text-underline-position: under; 
+  
+
+}
+
+.ourStory
+{
+  position: absolute;
+  top: 15px;
+  right: 390px;
+  width: 660px;
+  height: 100px;
+  font-size: 24px;
+  font-family: century gothic;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-weight: normal;
 
 
 
-/* ************************** */
+}
 
+.ourValuesHeading
+{
+  position: absolute;
+  top: 830px;
+  right: 880px;
+  width: 660px;
+  height: 100px;
+  font-size: 50px;
+  font-family: century gothic;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 255);
+  text-underline-position: under; 
+}
+
+
+.ourValuesBody
+{
+  position: absolute;
+  top: 935px;
+  right: 1100px;
+  width: 600px;
+  height: 100px;
+  font-size: 26px;
+  font-family: century gothic;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.recyclingHeading
+{
+  position: absolute;
+  top: 830px;
+  right: 80px;
+  width: 660px;
+  height: 100px;
+  font-size: 50px;
+  font-family: century gothic;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 255);
+  text-underline-position: under; 
+}
+.recyclingBody
+{
+  position: absolute;
+  top: 935px;
+  right: 200px;
+  width: 600px;
+  height: 100px;
+  font-size: 26px;
+  font-family: century gothic;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/* Find us page CSS */
+
+.openingH
+{
+    position: absolute;
+    top: 230px;
+    right: 892px;
+    width: 660px;
+    height: 100px;
+    font-size: 50px;
+    font-family: century gothic;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    text-underline-offset: 30px;    
+    letter-spacing: 3px;
+}
+
+.openingDays
+{
+    position: absolute;
+    top: 350px;
+    right: 1500px;
+    width: 50px;
+    height: 10px;
+    font-size: 24px;
+    font-family: century gothic;
+    color: rgb(255, 255, 255);
+    text-align: justify;    
+    letter-spacing: 3px;
+    line-height: 1.8;
+
+}
+.openingHours
+{
+    position: absolute;
+    top: 350px;
+    right: 1100px;
+    width: 180px;
+    height: 10px;
+    font-size: 24px;
+    font-family: century gothic;
+    color: rgb(255, 255, 255);
+    text-align: center;    
+    letter-spacing: 3.2px;
+    line-height: 1.8;
+
+}
+
+
+    /* main image of the home page style */
+
+.mapImage{
+
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 320px;
+}
+
+.ourAddress{
+    position: absolute;
+    top: 370px;
+    right: 110px;
+    width: 300px;
+    height: 10px;
+    font-size: 30px;
+    font-family: century gothic;
+    color: rgb(255, 255, 255);
+    text-align: center;    
+    letter-spacing: 3.2px;
+    line-height: 1.2;
+    font-weight: normal;
+
+}

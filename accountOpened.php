@@ -7,16 +7,15 @@
     $to = "$userEmail";
     
     $body = 'Please click the attatched link to reset your password, if you did not make this request ignore this email.';
-    $resetLink = 'http://localhost/beckett-team14/changePassword.php';
+    $resetLink = 'http://localhost/beckett-team14/passwordResetConfirmation.php';
+
     mail($to,$messageSubject,$resetLink,$body);
 
-
-if(isset($_POST['email'])){
-header("Location: resetConfirmed.php");
-exit;
-}
+    header("Refresh:4;url=index.php");
 
 ?>
+
+
 
 <!doctype html>
 <html lang="en">
@@ -51,37 +50,15 @@ exit;
              <body>
                 <body style="background-color: #962c3a;text-align:center">
                 </body>
-                <div class="container">
                 <br>
                 <br>
                 <br>
                 <br>
                 <br>
-                <h1>RESET YOUR PASSWORD</h1>
-                <p>Enter the email address used to register your account with us.</p>
-             
-                </div>
+                <br>
+                <h1>THANK YOU FOR JOINING PIXELCHILLS</h1>
+                <p>Please wait while you are redirected</p>
                 
-                
-    <div class="container">
-        <form action="passwordReset.php" method="POST" class="form">
-            <div class="form-group">
-                <input type="text" class="form-control" id="email" name="email" placeholder="Email*" tabindex="1" required>
-                <div>
-                    <br>
-                <button type="submit" class="btn">SUBMIT</button>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            
-      
-
-
-                </div>
 
             </div>
         </div>
@@ -94,4 +71,5 @@ exit;
 
     </div>
 </body>
+
 </html>

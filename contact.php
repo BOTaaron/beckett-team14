@@ -45,6 +45,7 @@
                     <li><a class="active" href="#">CONTACT</a></li>
                     <li><a href="about.php">ABOUT</a></li>
                     <li><a href="signIn.php">JOIN</a></li>
+                    <li><a href="ourLocation.php">FIND US</a></li>
                 </ul>
             </nav>
         </div>
@@ -59,6 +60,7 @@
                 <a class="active" href="#">CONTACT</a>
                 <a href="about.php">ABOUT</a>
                 <a href="signIn.php">ACCOUNT</a>
+                <li><a href="ourLocation.php">LOCATION</a></li>
             </ul>
         </div>
 
