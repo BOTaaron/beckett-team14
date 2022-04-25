@@ -43,10 +43,11 @@
                         <li><a href="contact.php">CONTACT</a></li>
                         <li><a href="about.php">ABOUT</a></li>
                         <li><a href="signIn.php">SIGN IN</a></li>
+                        <li><a href="ourLocation.php">FIND US</a></li>
                     </ul>
                 </nav>
                 <div class="search-bar">
-                    <input class="search-txt" type="txt" nam="" placeholder="find my food...">
+                    <input class="search-txt" type="txt" name="" placeholder="Search our menu">
                     <a class="search-btn" href="#"><img src="icons/search.png" alt="search icon" /></a>
 
                 </div>
@@ -64,6 +65,7 @@
                 <a href="contact.php">CONTACT</a>
                 <a href="about.php">ABOUT</a>
                 <a href="signIn.php">ACCOUNT</a>
+                <li><a href="ourLocation.php">LOCATION</a></li>
 
             </ul>
         </div>
@@ -229,11 +231,11 @@
 
 
 
-
-            <!-- main page content end here !-->
-        </div>
-
-        <hr/>
+        <!-- main page content end here !-->
+        <br>
+        <br>
+        
+        <hr size="1" width="97%" color="white">
         <!-- page footer  !-->
         <footer class="footer">
             <!-- javascript link   !-->
