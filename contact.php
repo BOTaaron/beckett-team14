@@ -1,5 +1,5 @@
 <?php
-    include __DIR__.'\scripts\contact-scripts.php';
+    include 'scripts\contact-scripts.php';
 ?>
 
 <!doctype html>
