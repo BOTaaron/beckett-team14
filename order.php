@@ -65,7 +65,7 @@
                 <a href="contact.php">CONTACT</a>
                 <a href="about.php">ABOUT</a>
                 <a href="signIn.php">ACCOUNT</a>
-                <li><a href="ourLocation.php">FIND US</a></li>
+                <li><a href="ourLocation.php">LOCATION</a></li>
 
             </ul>
         </div>
