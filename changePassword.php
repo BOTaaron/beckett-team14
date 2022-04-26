@@ -1,22 +1,3 @@
-<?php
-
-
-    $userEmail = isset($_POST ['email']) ? $_POST ['email'] : "";
-    $messageSubject = 'Reset your Pixelchills password';
-
-    $to = "$userEmail";
-    
-    $body = 'Please click the attatched link to reset your password, if you did not make this request ignore this email.';
-    $resetLink = 'http://localhost/beckett-team14/passwordResetConfirmation.php';
-
-    mail($to,$messageSubject,$resetLink,$body);
-
-    header("Refresh:4;url=index.php");
-
-?>
-
-
-
 <!doctype html>
 <html lang="en">
 
@@ -27,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>Signed In</title>
+    <title>Password Reset</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
@@ -50,15 +31,39 @@
              <body>
                 <body style="background-color: #962c3a;text-align:center">
                 </body>
+                <div class="container">
                 <br>
                 <br>
                 <br>
                 <br>
                 <br>
-                <br>
-                <h1>YOU HAVE SUCCESSFULLY SIGNED IN </h1>
-                <p>Please wait while you are redirected</p>
+                <h1>PASSWORD RESET</h1>
+                <p>Please enter your new password</p>
+             
+                </div>
                 
+                
+    <div class="container">
+            <div class="form-group">
+                <input type="password" class="form-control" id="email" name="New password" placeholder="New password*" tabindex="1" required>
+                <br>
+                <input type="password" class="form-control" id="email" name="Confirm password" placeholder="Confirm password*" tabindex="2" required>
+
+                <div>
+                    <br>
+                <button type="submit" class="btn" onclick="location.href='changePasswordConfirmed.php'">CONFIRM</button>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            
+      
+
+
+                </div>
 
             </div>
         </div>
@@ -71,5 +76,4 @@
 
     </div>
 </body>
-
 </html>

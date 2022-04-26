@@ -8,20 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>About Us</title>
+    <title>Find Us</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
     <link rel="icon" href="images/Logop2.jpg" type="image/x-icon">
      <!-- social media icons -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-
 </head>
-
 <body>
     <div class="container">
-
     <div class="all_nav">
         <div class="bg-img">
             <nav class="navbar">
@@ -35,51 +31,59 @@
                     
                     </svg>
                 </a>
-
                 <ul class="navbar-nav">
-                    <li><a class="active" href="about.php">GO BACK</a></li>
-                   
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="order.php">ORDER</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
+                    <li><a class="active" href="signIn.php">SIGN IN</a></li>
+                    <li><a href="ourLocation.php">FIND US</a></li>
                 </ul>
             </nav>
         </div>
         </div>
         <div id="side-menu" class="side-nav">
-
         <a href="#" class="btn-close" onclick="CSM()"><img src="icons/bak.png" alt="back icon" /></a>
             <!--  Side navigation bar links  -->
             <ul>
                 <a href="index.php">HOME</a>
                 <a href="order.php">ORDER</a>
                 <a href="contact.php">CONTACT</a>
-                <a class="active" href="#">ABOUT</a>
-                <a href="signIn.php">ACCOUNT</a>
+                <a href="about.php">ABOUT</a>
+                <a class="active" href="#">ACCOUNT</a>
+                <li><a href="ourLocation.php">LOCATION</a></li>
             </ul>
         </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <!--in the interest of saving time (fix if possible)-->
 
-        <div class="main">
-            <!--main page content-->
-            <div class="story">
-            <p>Our business started in 1992 by our founders who rose from regular chefs to Certified Master Chefs. Working at Great Foods their entire life, they decided it was time to own own a business. After obtaining the title Master Chef, they wanted
-                to make a huge impact in the food industry independently. Through dedication and experimentation, they came up with multiple great tasty menus and eventually the business sprang up.
-            </p>
-            <p>Today, our primary goal is to thrive as an excellent restaurant with delicious menus and unparalled customer servicing. We have worked hard to become the number one food supplier ever since. For 5 years we have held this position and we aim
-                to keep it that way. We have become every celebrityu's favourite food spot across the country with other visits from international ones.
-            </p>
-
-            <p>
-                Spanning across the UK, our number of brunches continues to grow due to high demand for our quality food and service. We do not take our customers for granted therefore our primary objectives have always been to provide great tasty menus to our valued
-                consumers with unparalled professional service.
-            </p>
-            </div>
-              <!--main page content ends here-->
+        <div class="ourAddress">
+        38 North Lane, Little London, Leeds, LS2 3HU
         </div>
-         
-<hr/>
-        <!-- page footer  !-->
+
+        <div class ="openingH">
+        OPENING HOURS
+        </div>
+       
+        <div class="openingDays">
+        MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY
+        </div>
+
+        <div class="openingHours">
+        10AM - 9PM 10AM - 9PM 10AM - 9PM 10AM - 9PM 10AM - 9PM 2PM - 11PM CLOSED
+        </div>
+                
+                <img class="mapImage" src="images/location.jpg" alt="location">
+    </div>
+               
+               
+            </div>
+                    
+            <!-- page footer  !-->
         <footer class="footer">
             <!-- javascript link   !-->
         <script src="main.js"></script>
-    
+        <hr size="1" width="100%" color="white">
         <div class="fcontainer"><!-- the whole footer section  !-->
             <div class="row">
                 <div class="footer-col">
@@ -98,13 +102,9 @@
                         <li><a href="#">CAREERS</a></li>
                         <li><a href="#">HELP</a></li>
                         <li><a href="#">ADS AND COOKIES</a></li>
-
-
-
                     </ul>
                 </div>
                 <div class="footer-col">
-
                     <ul>           <!-- other links  !-->
                         <li><a href="#">PRIVACY</a></li>
                         <li><a href="#">POLICIES</a></li>
@@ -114,29 +114,20 @@
                 <div class="footer-col">
                     <h3>FOLLOW US</h3>
                     <div class="socialM-links"> <!--  social media links !-->
-
                         <a href="https://facebook.com"><em class="fab fa-facebook-f"></em></a>
                         <a href="https://twitter.com"><em class="fab fa-twitter"></em></a>
                         <a href="https://whatsapp.com"><em class="fab fa-whatsapp"></em></a>
                         <a href="https://microsoft.com"><em class="fab fa-microsoft"></em></a>
-
-
                     </div>
-
                 </div>
-
             </div>
         </div>
         <hr/>
         <span class="pix"> <!-- name declaration  !-->
            <P>© PIXELCHILLS. All Rights Reserved.</P>
          </span>
-
-
     
         </footer>
-
     </div>
 </body>
-
 </html>

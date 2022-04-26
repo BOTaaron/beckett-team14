@@ -15,13 +15,9 @@
     <link rel="icon" href="images/Logop2.jpg" type="image/x-icon">
      <!-- social media icons -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-
 </head>
-
 <body>
     <div class="container">
-
     <div class="all_nav">
         <div class="bg-img">
             <nav class="navbar">
@@ -35,19 +31,18 @@
                     
                     </svg>
                 </a>
-
                 <ul class="navbar-nav">
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="order.php">ORDER</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                     <li><a href="about.php">ABOUT</a></li>
-                    <li><a class="active" href="#">SIGN IN</a></li>
+                    <li><a class="active" href="signIn.php">SIGN IN</a></li>
+                    <li><a href="ourLocation.php">FIND US</a></li>
                 </ul>
             </nav>
         </div>
         </div>
         <div id="side-menu" class="side-nav">
-
         <a href="#" class="btn-close" onclick="CSM()"><img src="icons/bak.png" alt="back icon" /></a>
             <!--  Side navigation bar links  -->
             <ul>
@@ -56,11 +51,11 @@
                 <a href="contact.php">CONTACT</a>
                 <a href="about.php">ABOUT</a>
                 <a class="active" href="#">ACCOUNT</a>
+                <li><a href="ourLocation.php">LOCATION</a></li>
             </ul>
         </div>
-
         <div class="main">
-            <!--This code is poorly written and confusing to read but it works + all the functions work so maybe leave it for now-->
+            <!--This code is complete spagetti but the CSS for forms is set as a global so this is the only way I can change it... (please look in to)-->
                    
                 <div class="container">
                 </div>
@@ -68,25 +63,21 @@
                 <br />
                 <br />
                 <br />
-                <br />
                 <h4> SIGN IN </h4>
                 <br />
                 <br />
-                <p>Dont forget to log in to see our latest events and offers</p>
-
+                <p>Log in or create an account to see our latest offers and events</p>
                 <div class="container">
-
                     <form method="post" action="insertRecord.php">
-
                         <input type="text" placeholder="Email*" name="txtEmail" />
                         <br />
                         <input type="password" placeholder="Password*" name="txtPass">
                         <a href="passwordReset.php"><p><u> Forgotten your password?</u></p></a>
                         <br />
-                        <button name = "subUser" type="submit" class="registerbtn">SIGN UP</button>
+                        <button name = "subUser" type="submit" class="registerbtn">SIGN IN</button>
                         <br />
                         <br />
-                        <h2> Not a member? <a href="createAccount.php">Register here</a></h2>
+                        <h2> Not a member? <a href="signUp.php">Register here</a></h2>
                         <br />    
                     </form>
                     
@@ -113,13 +104,9 @@
                         <li><a href="#">CAREERS</a></li>
                         <li><a href="#">HELP</a></li>
                         <li><a href="#">ADS AND COOKIES</a></li>
-
-
-
                     </ul>
                 </div>
                 <div class="footer-col">
-
                     <ul>           <!-- other links  !-->
                         <li><a href="#">PRIVACY</a></li>
                         <li><a href="#">POLICIES</a></li>
@@ -129,29 +116,20 @@
                 <div class="footer-col">
                     <h3>FOLLOW US</h3>
                     <div class="socialM-links"> <!--  social media links !-->
-
                         <a href="https://facebook.com"><em class="fab fa-facebook-f"></em></a>
                         <a href="https://twitter.com"><em class="fab fa-twitter"></em></a>
                         <a href="https://whatsapp.com"><em class="fab fa-whatsapp"></em></a>
                         <a href="https://microsoft.com"><em class="fab fa-microsoft"></em></a>
-
-
                     </div>
-
                 </div>
-
             </div>
         </div>
         <hr/>
         <span class="pix"> <!-- name declaration  !-->
            <P>© PIXELCHILLS. All Rights Reserved.</P>
          </span>
-
-
     
         </footer>
-
     </div>
 </body>
-
 </html>

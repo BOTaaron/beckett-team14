@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>Signed In</title>
+    <title>Joined Pixelchills</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
@@ -56,7 +56,7 @@
                 <br>
                 <br>
                 <br>
-                <h1>YOU HAVE SUCCESSFULLY SIGNED IN </h1>
+                <h1>THANK YOU FOR JOINING PIXELCHILLS</h1>
                 <p>Please wait while you are redirected</p>
                 
 

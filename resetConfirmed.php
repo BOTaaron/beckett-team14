@@ -7,15 +7,11 @@
     $to = "$userEmail";
     
     $body = 'Please click the attatched link to reset your password, if you did not make this request ignore this email.';
-    $resetLink = 'http://localhost/beckett-team14/passwordResetConfirmation.php';
+    $resetLink = 'http://localhost/beckett-team14/changePassword.php';
 
     mail($to,$messageSubject,$resetLink,$body);
 
-    header("Refresh:4;url=index.php");
-
 ?>
-
-
 
 <!doctype html>
 <html lang="en">
@@ -27,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>Signed In</title>
+    <title>Password Reset</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
@@ -50,15 +46,18 @@
              <body>
                 <body style="background-color: #962c3a;text-align:center">
                 </body>
+                <div class="container">
                 <br>
                 <br>
                 <br>
                 <br>
                 <br>
+                <h1>RESET LINK SENT</h1>
+                <p>If the email you have entered is registered with us you will shorlty receive a password reset link.</p>
                 <br>
-                <h1>YOU HAVE SUCCESSFULLY SIGNED IN </h1>
-                <p>Please wait while you are redirected</p>
-                
+
+                <button onclick="location.href='signIn.php'" type="button">BACK</button>
+  
 
             </div>
         </div>
