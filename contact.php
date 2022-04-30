@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-compatible" content="ie=edge">
     <!--  page title  -->
-    <title>Sign In</title>
+    <title>Contact Us</title>
     <!-- stylesheet reference   -->
     <link href="main.css" rel="Stylesheet" type="text/css" />
     <!-- icon -->
@@ -34,9 +34,9 @@
                 <ul class="navbar-nav">
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="order.php">ORDER</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a class= "active" href="contact.php">CONTACT</a></li>
                     <li><a href="about.php">ABOUT</a></li>
-                    <li><a class="active" href="signIn.php">SIGN IN</a></li>
+                    <li><a href ="signIn.php">SIGN IN</a></li>
                     <li><a href="ourLocation.php">FIND US</a></li>
                 </ul>
             </nav>
@@ -62,7 +62,7 @@
                 <br><br><br>
                 
                 <h1>Hot food? Cold Beers? Whatever your feedback, we would love to hear it.</h1>
-                <br>
+                
                 <div class="formContainer">
                     <form method="post" action="insertFeedback.php">
                         <input type="text" placeholder="Full Name*" name="txtName">
@@ -71,8 +71,7 @@
                         <br>
                         <textarea id="mssg" name="txtFeedback" placeholder="Write your message here"></textarea></textarea>
                         <br><br>
-                        <button name = "subUser" type="submit" class="registerbtn">SUBMIT</button><br>
-                        <br>
+                        <button name = "subUser" type="submit" class="registerbtn">SUBMIT</button>
                     </form>
                     
             <!-- page footer  !-->
