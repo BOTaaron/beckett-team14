@@ -36,8 +36,8 @@
                     <li><a href="order.php">ORDER</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                     <li><a href="about.php">ABOUT</a></li>
-                    <li><a class="active" href="signIn.php">SIGN IN</a></li>
-                    <li><a href="ourLocation.php">FIND US</a></li>
+                    <li><a href="signIn.php">SIGN IN</a></li>
+                    <li><a class="active" href="ourLocation.php">FIND US</a></li>
                 </ul>
             </nav>
         </div>
