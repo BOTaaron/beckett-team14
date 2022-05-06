@@ -12,7 +12,7 @@
         $query = "INSERT INTO users_signed_in
                 (userEmail, userPass)
             VALUES
-                ($email', '$pass')";
+                ('$email', '$pass')";
 
                 //echo $query;
                // exit();

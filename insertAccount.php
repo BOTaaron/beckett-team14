@@ -13,7 +13,7 @@
         $query = "INSERT INTO users_new_accounts
                 (userName, userEmail, userPass)
             VALUES
-                ($name', '$email', '$pass')";
+                ('$name', '$email', '$pass')";
 
                 //echo $query;
                // exit();

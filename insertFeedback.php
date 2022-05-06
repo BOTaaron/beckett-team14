@@ -13,7 +13,7 @@
         $query = "INSERT INTO users_feedback
                 (userName, userEmail, userFeedback)
             VALUES
-                ($name', '$email', '$feedback')";
+                ('$name', '$email', '$feedback')";
 
                 //echo $query;
                // exit();
