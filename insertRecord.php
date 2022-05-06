@@ -1,7 +1,7 @@
 <?php
 
     //include connection
-    include '/scripts/databaseConnection.php';
+    include 'scripts/databaseConnection.php';
     //has the form been submitted?
     if(isset($_POST['subUser'])){
         //collect data from

@@ -2,11 +2,11 @@
 
 
     $userEmail = isset($_POST ['email']) ? $_POST ['email'] : "";
-    $messageSubject = 'Reset your Pixelchills password';
+    $messageSubject = 'Reset your PixelChills password';
 
     $to = "$userEmail";
     
-    $body = 'Please click the attatched link to reset your password, if you did not make this request ignore this email.';
+    $body = 'Please click the attached link to reset your password, if you did not make this request ignore this email.';
     $resetLink = 'http://localhost/beckett-team14/passwordResetConfirmation.php';
 
     mail($to,$messageSubject,$resetLink,$body);
